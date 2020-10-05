@@ -1,0 +1,19 @@
+<div class="page__wrapper" data-cc-hook="page-wrapper">
+    <div data-cc-hook="data">
+        <h1 data-cc-hook="heading"></h1>
+        {{#collection.ICL_speaker-biographies--wp}}
+        {{#block.ICL_information--wp}}
+        <div data-cc-block-type="item">
+            <div data-dc-data-type="name">{{{ICL_name--wp}}}</div>
+            <div data-dc-data-type="title">{{{ICL_title--wp}}}</div>
+            <div data-dc-data-type="capital-text">uppercase</div>
+            <div data-dc-data-type="image" style="width: 136px; height: 158px;">{{{ICL_speaker-image--wp}}}</div>
+            <div data-dc-data-type="content">{{{ICL_content--wp}}}</div>
+        </div><!-- end item -->
+        {{/block.ICL_information--wp}}
+        {{#block.ICL_column-break--wp}}
+        <div data-cc-block-type="column-break"></div>
+        {{/block.ICL_column-break--wp}}
+        {{/collection.ICL_speaker-biographies--wp}}
+    </div><!-- end data -->
+</div><!-- end page__wrapper -->
